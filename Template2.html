@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #bluePatti {
+            background-color: #023b6d;
+            color: white;
+            padding-left: 30px;
+            height: 25px;
+        }
+        
+        span {
+            color: #00b1e9;
+        }
+        
+        li {
+            display: inline-block;
+        }
+        
+        @media screen and (min-width:801px) {
+            li {
+                display: none;
+            }
+        }
+        
+        li:first-child {
+            width: 200px;
+            margin-left: 250px;
+        }
+        
+        li:not(:first-child) {
+            margin-left: 30px;
+        }
+        
+        nav {
+            height: 50px;
+            background-color: #00b1e9;
+        }
+        
+        .round-btn {
+            background-color: #2487ce;
+            border-radius: 8px;
+            padding: 4px 5px;
+            margin-top: 10px;
+        }
+        
+        section {
+            width: 1480px;
+            height: 400px;
+            background-color: #58d6dd;
+            text-align: center;
+            padding-top: 75px;
+            font-size: xx-large;
+        }
+        
+        #large-btn {
+            background-color: #2487ce;
+            padding: 7px 33px;
+            border-radius: 10px;
+        }
+        
+        .box {
+            width: 200px;
+            height: 250px;
+            display: inline-block;
+            background-color: white;
+            vertical-align: middle;
+            margin-left: 50px;
+            position: relative;
+            border-radius: 10px
+        }
+        
+        #box-container {
+            margin: auto;
+            width: fit-content;
+            position: relative;
+            top: -100px;
+        }
+        
+        .box div {
+            height: fit-content;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="bluePatti">
+            <h4>
+                BOOTSTRAP<span>MADE</span>
+            </h4>
+        </div>
+        <nav>
+            <ol>
+                <li>
+                    <h2>OnePage</h2>
+                </li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Portfolio</li>
+                <li>Team</li>
+                <li>Pricing</li>
+                <li>Drop Down</li>
+                <li>Contact</li>
+                <li><button class="round-btn">Get Started</button></li>
+            </ol>
+        </nav>
+    </header>
+    <section>
+        <div>
+            <h1>One Page BootStrap</h1>
+            <h1>Website Template</h1>
+            <br>
+            <h5>A Team of Telented Designers</h5>
+        </div>
+        <div>
+            <button id="large-btn">Get Started</button>
+        </div>
+    </section>
+    <div id="box-container">
+        <div class="box">
+            <div><img src="./Capture.PNG" alt=""></div>
+            <div>
+                <h4>Lorem Ipsum </h4><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, laboriosam?</p>
+            </div>
+        </div>
+        <div class="box">
+            <div><img src="./paint.PNG" alt=""></div>
+            <div>
+                <h4>Megni Dolores </h4> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, laboriosam?</p>
+            </div>
+        </div>
+        <div class="box">
+            <div><img src="./fingre.PNG" alt=""></div>
+            <div>
+                <h4>Nemo Enim </h4> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, laboriosam?</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
